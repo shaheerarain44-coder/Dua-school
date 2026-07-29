@@ -15,8 +15,8 @@ body{
 
 /* Header */
 .section{
-    background: #0b3d91;
-    position: sticky;
+    background: rgb(128, 152, 231);
+    position: relative;
     top: 0;
     z-index: 1000;
 }
@@ -38,6 +38,7 @@ body{
 
 .nav-section ul{
     display: flex;
+    flex-wrap: wrap ;
     list-style: none;
     gap: 30px;
 }
